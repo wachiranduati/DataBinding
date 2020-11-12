@@ -15,8 +15,7 @@ findViewById<TextView>(R.id.sample_text).apply {
 
  ```
  <TextView
-      android:text="@{viewmodel.userName}" />
-      ```
+      android:text="@{viewmodel.userName}" />```
 right in your xml code
 
 ## To get Started

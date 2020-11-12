@@ -11,7 +11,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         val binding : ActivityMainBinding =
                 DataBindingUtil.setContentView(this, R.layout.activity_main)
-        binding.appName = "The Banana Game"
-        binding.version = "13"
+        binding.appInfo = AppInfo("Green Banana", "23.4.1")
     }
 }
