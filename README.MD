@@ -31,6 +31,27 @@ android {
  }
  ```
 
+ with data binding you can use expression in the xml files that resemble something like
+ ```
+ android:text="@{String.valueOf(index + 1)}"
+ android:visibility="@{age < 13 ? View.GONE : View.VISIBLE}"
+ android:transitionName='@{"image_" + id}'
+ ```
+ ### Example 1 : Using Static Values
+ ```
+  <data>
+         <variable name="name" type="String"/>
+         <variable name="lastName" type="String"/>
+     </data>
+     ```
+
+    ```
+    <TextView
+                    android:id="@+id/plain_name"
+                    android:text="@{name}"
+            ... />
+            ```
+
  ### Reference
 
  - [DataBinding](https://developer.android.com/topic/libraries/data-binding)

@@ -1,4 +1,4 @@
-package com.toponymkenya.databinding
+package com.databinding.nduati
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

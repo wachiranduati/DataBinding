@@ -1,4 +1,4 @@
-package com.toponymkenya.databinding
+package com.databinding.nduati
 
 import org.junit.Test
 
